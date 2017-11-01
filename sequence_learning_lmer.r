@@ -19,5 +19,4 @@ summary(lmer.tp)
 summary(lmer.both)
 
 #model comparisons
-anova(lmer.tp, lmer.freq)
-anova(lmer.freq, lmer.both)
+anova(lmer.tp, lmer.freq, lmer.both)
